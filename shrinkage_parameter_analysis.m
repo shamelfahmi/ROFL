@@ -1,4 +1,5 @@
 clear all; clc; close all
+addpath(genpath('./dependencies')) % adding the dependensies folder to path
 for i = 1:2
 if i==1
 regAlg = 'ridge';

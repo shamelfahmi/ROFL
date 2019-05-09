@@ -1,4 +1,5 @@
 clear all; clc;% close all
+addpath(genpath('./dependencies')) % adding the dependensies folder to path
 n=9;
 for i=1:n
 [yEstTest,yEstTrain,yTest,yTrain] = RMEregress('sameSizeS/S1se1X.mat',i,'mvr',1,1);

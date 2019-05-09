@@ -1,5 +1,5 @@
 clear all; close all; clc;
-
+addpath(genpath('./dependencies')) % adding the dependensies folder to path
 %_%_%_%_%_%_%_%_%_%_%_%__Periodogram Plots___%_%_%_%_%_%_%_%_%_%_%_%_%_%_%_%
 % Periodogram Plots
 [SI,M1,M2] = preProcessAnalyze('sameSizeS/S1se1X.mat');

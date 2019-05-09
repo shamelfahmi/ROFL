@@ -1,5 +1,5 @@
 clear all; clc; close all
-addpath(genpath('.'))
+addpath(genpath('./dependencies')) % adding the dependensies folder to path
 par=[];
 t=4;
 E = [];

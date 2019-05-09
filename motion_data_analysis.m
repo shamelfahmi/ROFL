@@ -1,5 +1,5 @@
 clear all; close all; clc;
-
+addpath(genpath('./dependencies')) % adding the dependensies folder to path
 %_%_%_%_%_%_%_%_%_%_%_%__Motion Plots___%_%_%_%_%_%_%_%_%_%_%_%_%_%_%_%
 
 [mT11, SD11] = preProcessAnalyzeMotionData( 'sameSizeS/S1se1X.mat');
