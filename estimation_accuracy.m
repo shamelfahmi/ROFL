@@ -1,5 +1,5 @@
 clear all; clc; close all
-addpath(genpath('..'))
+addpath(genpath('.'))
 par=[];
 t=4;
 E = [];
@@ -64,13 +64,6 @@ for x=1:3:18;
     plot(esttime,yEstL1,'LineWidth',2); hold on;
     xlim([0 70]); ylim([-10 10]); grid on;
     title('Lasso') ;xlabel('Time [s]'); ylabel('SI [mm]'); %legend('yTest','yEst')
-    whos
+%     whos
 end
 par=round(par,1)
-%%
-%descr = {strcat('MAE',setstr(177),'STD: ',num2str(MAE1),setstr(177),num2str(STD1));strcat('AdjR^2',num2str(AdjR1));};
-%t = text(50,-7,descr,'FontSize',10,'Clipping','on','EdgeColor','b');
-%descr = {strcat('MAE',setstr(177),'STD: ',num2str(MAER1),setstr(177),num2str(STDR1));strcat('AdjR^2',num2str(AdjRR1));};
-%t = text(50,-7,descr,'FontSize',10,'Clipping','on','EdgeColor','b');
-%descr = {strcat('MAE',setstr(177),'STD: ',num2str(MAEL1),setstr(177),num2str(STDL1));strcat('AdjR^2',num2str(AdjRL1));};
-%t = text(50,-7,descr,'FontSize',10,'Clipping','on','EdgeColor','b');
