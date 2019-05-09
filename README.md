@@ -7,8 +7,6 @@ This repository includes the main scripts of the work:
 **Respiratory motion estimation of the liver with abdominal
 motion as a surrogate**
 
-ROFL stands for **R**espiratory motion estimation __OF__ the __L__iver
-
 To cite this work:
 [Link to publication](https://www.researchgate.net/publication/327054506_Respiratory_motion_estimation_of_the_liver_with_abdominal_motion_as_a_surrogate)
 ```
